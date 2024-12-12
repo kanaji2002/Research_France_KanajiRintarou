@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 import time
 
-
+# Changed the parameters.
 
 from pynvml import *
 import sys
