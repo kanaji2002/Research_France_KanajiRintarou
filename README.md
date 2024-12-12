@@ -1,4 +1,7 @@
 # Research_France_KanjiRintarou
+This is a study that uses a regression model to predict the total power consumption of two processes running simultaneously on a GPU.
+Using the PyCaret library, we studied which regression models could accurately predict the total power consumption, and how the accuracy changes when the total power consumption is normalized or not. 
+The results showed that Lenear Regressor had the best accuracy with MAE=4.75 when not normalized.
 
 
 ![De_Normalized](Excute_2process/Result/Not_Normalized.png)
