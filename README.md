@@ -1,9 +1,10 @@
 # Research_France_KanjiRintarou
+## Abstract
 This is a study that uses a regression model to predict the total power consumption of two processes running simultaneously on a GPU.
 Using the PyCaret library, we studied which regression models could accurately predict the total power consumption, and how the accuracy changes when the total power consumption is normalized or not. 
 The results showed that Lenear Regressor had the best accuracy with MAE=4.75 when not normalized.
 
-
+## 1. Not_Normalized
 ![De_Normalized](Excute_2process/Result/Not_Normalized.png)
 
 I excuted PyCaret libraly and got this figure about MAE score.
@@ -21,7 +22,7 @@ And I understand Linear Regression is good score.
 Please tell me this feature and result is good or not. 
 
 
-
+## 2. Normalized
 ![Normalized](Excute_2process/Result/Normalized.png)
 This is the result of normalizing Power and regression forecasting. After regression forecasting, the results were denormarlized. I used MAE as the evaluation method.
 
