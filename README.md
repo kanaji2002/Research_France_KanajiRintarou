@@ -18,8 +18,9 @@ Feature is below. And target is total power.
 - model2_Param
 - model1_FLP
 - model2_FLP
-And I understand Linear Regression is good score.
-Please tell me this feature and result is good or not. 
+  
+And I understand Linear Regression is good score(MAE=4.75).
+
 
 
 ## 2. Normalized
